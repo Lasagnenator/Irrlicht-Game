@@ -19,6 +19,7 @@ void GameLoop(f32 Delta) {
 
 	//CameraMovementUpdate(Delta);
 
+	//Todo: move this into react physics engine.
 	BikeMovementUpdate(Delta);
 	//Todo: make the camera 'orbit' the bike node.
 	//CameraOrbitUpdate(Delta);
