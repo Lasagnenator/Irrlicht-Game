@@ -44,8 +44,8 @@ void BikeMovementUpdate(f32 Delta) {
 
 	//Todo: Make this translate in the facing direction
 	core::vector3df rot = bike->getRotation();
-	if (receiver.KeyMap[controlsconfig.LeftTilt]) rot.Y -= 20 * Delta;
-	if (receiver.KeyMap[controlsconfig.RightTilt]) rot.Y += 20 * Delta;
+	if (receiver.KeyMap[controlsconfig.LeftTilt]) rot.Y -= 25 * Delta;
+	if (receiver.KeyMap[controlsconfig.RightTilt]) rot.Y += 25 * Delta;
 	core::vector3df direction = rot.rotationToDirection();
 	direction.setLength(Displacement);
 	pos += direction;

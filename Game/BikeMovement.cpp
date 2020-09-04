@@ -4,7 +4,7 @@
 #include "EventListener.h"
 
 #define DRAGCOEFF 0.015f    //a = -kv^2
-#define ACCELERATION 100 //motor's acceleration is constant
+#define ACCELERATION 1000 //motor's acceleration is constant
 
 using namespace irr;
 
